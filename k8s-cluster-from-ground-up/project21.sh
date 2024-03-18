@@ -1490,3 +1490,7 @@ EOF
   sudo systemctl enable containerd kubelet kube-proxy
   sudo systemctl start containerd kubelet kube-proxy
 }
+
+# 19. Now you should have the worker nodes joined to the cluster, and in a READY state.
+
+kubectl get nodes --kubeconfig admin.kubeconfig -o wide
