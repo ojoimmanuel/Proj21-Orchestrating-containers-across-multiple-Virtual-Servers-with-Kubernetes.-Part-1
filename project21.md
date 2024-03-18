@@ -2463,6 +2463,8 @@ EOF
 ```
 Now you should have the worker nodes joined to the cluster, and in a **READY** state.
 
+`kubectl get nodes --kubeconfig admin.kubeconfig -o wide`
+
 ![ready-state](./images/51-ready-state.png)
 
 <img src="https://darey-io-nonprod-pbl-projects.s3.eu-west-2.amazonaws.com/project21/Ready-worker-nodes.png" width="936px" height="550px">
